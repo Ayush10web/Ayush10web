@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int age;
+    
+    printf("Enter ur age : ");
+    
+   scanf("%d",&age);
+   
+   
+   if( age > 17){
+       printf("Eligible 4 vote");
+   }
+   else{
+       printf("Gand na fulao.. phle lund se bara ho jao");
+   }
+   
+
+    return 0;
+}
